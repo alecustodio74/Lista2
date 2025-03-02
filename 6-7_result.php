@@ -28,7 +28,7 @@
                     echo "nada a declarar!";
             }
 
-        echo "A temperatura em $nome é  " . number_format($converte,2,',','.');
+        echo "A temperatura em $nome é  " . number_format($converte,2,',','.') . " graus";
             
             } catch(Exception $e){
                 echo $e->getMessage();
@@ -36,7 +36,7 @@
         }
     ?>
     <div class="col mt-2">
-         <button type="submit" class="btn btn-primary"><a href="6_temperatura.php" style="color: white; text-decoration: none;">Voltar</a></button>
+         <button type="submit" class="btn btn-primary"><a href="6-7_temperatura.php" style="color: white; text-decoration: none;">Voltar</a></button>
     </div>
 
 

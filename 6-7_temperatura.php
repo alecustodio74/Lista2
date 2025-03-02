@@ -9,7 +9,7 @@
   </head>
   <body>
     <h4>6 e 7 - Conversor de temperaturas</h4>
-    <form method="post" action="6_result.php"> <!-- action vai para outra página -->
+    <form method="post" action="6-7_result.php"> <!-- action vai para outra página -->
             
         
         <div class="mb-3">
