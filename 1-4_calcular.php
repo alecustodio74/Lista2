@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Exercício 1 ao 4</h1>
+    <h4>Exercício 1 ao 4</h4>
     <form method="post" action="1-4_result.php"> <!-- action vai para outra página -->
             
             <div class="mb-3">
