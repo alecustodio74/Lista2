@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Alexandre Ricardo Custódio de Souza">
-    <title>Circulos</title>
+    <title>Perímetro de um Circulo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
-    <h4>9 - Calcular radio de um circulo</h4>
-    <form method="post" action="9_result.php"> <!-- action vai para outra página -->
+    <h4>11 - Calcular perímetro de um circulo</h4>
+    <form method="post" action="11_result.php"> <!-- action vai para outra página -->
             
             <div class="mb-3">
                 <label for="raio" class="form-label">Digite o raio</label>
