@@ -10,7 +10,7 @@
   <body>
     <h4>Exercício 1 ao 4</h4>
     <form method="post" action="1-4_result.php"> <!-- action vai para outra página -->
-            
+      <div class="col-3">        
             <div class="mb-3">
                 <label for="numero1" class="form-label">Digite o número 1</label>
                 <input type="number" id="numero1" name="numero1" class="form-control" required>
@@ -29,6 +29,7 @@
             </div>
         
         <button type="submit" class="btn btn-primary">Enviar</button>
+      <div class="col-3">
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>

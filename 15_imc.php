@@ -4,21 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Alexandre Ricardo Custódio de Souza">
-    <title>Base e expoente</title>
+    <title>Cálculo do IMC</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
-    <h4>12 - Calcular base e expoente</h4>
-    <form method="post" action="12_result.php"> <!-- action vai para outra página -->
-        <div class="col-3">
+    <h4>15 - Calcular o IMC</h4>
+    <form method="post" action="15_result.php"> <!-- action vai para outra página -->
+            <div class="col-3">
             <div class="mb-3">
-                <label for="base" class="form-label">Digite a base</label>
-                <input type="number" id="base" name="base" class="form-control" required="">
+                <label for="peso" class="form-label">Digite o peso</label>
+                <input type="float" id="peso" name="peso" class="form-control" required="">
             </div>
         
             <div class="mb-3">
-                <label for="expoente" class="form-label">Digite o expoente</label>
-                <input type="number" id="expoente" name="expoente" class="form-control" required="">
+                <label for="altura" class="form-label">Digite a altura</label>
+                <input type="float" id="altura" name="altura" class="form-control" required="">
             </div>
         
         <button type="submit" class="btn btn-primary">Calcular</button>

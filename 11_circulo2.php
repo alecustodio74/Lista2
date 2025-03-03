@@ -10,7 +10,7 @@
   <body>
     <h4>11 - Calcular perímetro de um circulo</h4>
     <form method="post" action="11_result.php"> <!-- action vai para outra página -->
-            
+    <div class="col-3">        
             <div class="mb-3">
                 <label for="raio" class="form-label">Digite o raio</label>
                 <input type="number" id="raio" name="raio" class="form-control" required="">
@@ -18,6 +18,7 @@
         
         
         <button type="submit" class="btn btn-primary">Calcular</button>
+    </div>
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>

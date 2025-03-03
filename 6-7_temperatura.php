@@ -10,8 +10,7 @@
   <body>
     <h4>6 e 7 - Conversor de temperaturas</h4>
     <form method="post" action="6-7_result.php"> <!-- action vai para outra página -->
-            
-        
+    <div class="col-3">       
         <div class="mb-3">
             <label for="conversor" class="form-label">Qual temperatura deseja converter</label>
             <select id="conversor" name="conversor" class="form-select" required="">
@@ -27,6 +26,7 @@
         </div>
 
         <button type="submit" class="btn btn-primary">Converter</button>
+    </div>
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
